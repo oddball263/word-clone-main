@@ -10,6 +10,7 @@ function GuessForm({ handleSubmit }) {
             return false
         }
         handleSubmit(word.toUpperCase())
+
         setWord('')
     }
 
